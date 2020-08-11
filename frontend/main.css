@@ -1,0 +1,119 @@
+body {
+    background-color: #292929;
+    -webkit-font-smoothing: anitialiased;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+
+a, ul {
+    text-decoration: none;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    max-width: 656.44px;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+#logo {
+
+    display: flex;
+    justify-content: center;
+
+    width: 290px;
+    height: 143px;
+   
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+#app {
+    display: inline;
+}
+
+
+#app ul li {
+    display: flex;
+    marker-end: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+
+
+#app input {
+
+    flex: 1;
+    
+    outline: none;
+    border: 0;
+
+    width: 400px;
+    height: 33.32px;
+
+    background: #FFFFFF;
+    border-radius: 16px 0 0 16px;
+
+    padding: 16px 24px;
+        
+}
+
+
+#delete {
+
+    cursor: pointer;
+
+    outline: none;
+    border: 0;
+
+    width: 133.29px;
+    height: 33.32px;
+
+    color: #FFFFFF;
+   
+    border-radius: 16px;
+
+    background: #7E4242;
+    border-radius: 30px;
+
+}
+
+#add { 
+    cursor: pointer;
+
+    outline: none;
+    border: 0;
+
+    width: 133.29px;
+    height: 33.32px;
+
+    background: #427E5A;
+    border-radius: 0px 16px 16px 0px;
+}
+
+#add:hover {
+    
+    transition: 400ms;
+    background: #427e5a91;
+}
+
+
+
+
+
